@@ -69,4 +69,23 @@ create table divisioneAperto(
 	primary key (IDsottocategorie,IDzona),
     constraint divisioneAperto_sottocategorie foreign key(IDsottocategorie) references sottocategorie(ID) on update cascade,
     constraint divisioneAperto_zone foreign key(IDzona) references zona(ID) on update cascade
-)
+);
+
+insert into `citta` value (default,'l\'aquila');
+insert into `zona` value (default,'università',1);
+insert into `edificio` value (default,'blocco 0', 1);
+insert into `piano`value (default,'piano 1',1);
+insert into `areaPiano`value (default, 'aula 1', 1);
+insert into `sensore` value (default, 't1', 0, 1,current_timestamp(), current_timestamp(),default,1);
+
+select * from sensore;
+delimiter //
+//
+create procedure nuovoValore (_idSensore int, x float)
+begin
+declare t time;
+select s.oraUltimoInvio from sensore s where _idSensore=s.ID into t;
+update sensore s set s.valore = x, s.oraUltimoInvio=current_timestamp(), s.oraInvioPrecedente=t  where s.ID=_idSensore;
+end//
+
+
