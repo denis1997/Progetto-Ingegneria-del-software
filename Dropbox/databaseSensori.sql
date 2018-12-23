@@ -78,7 +78,7 @@ insert into `piano`value (default,'piano 1',1);
 insert into `areaPiano`value (default, 'aula 1', 1);
 insert into `sensore` value (default, 't1', 0, 1,current_timestamp(), current_timestamp(),default,1);
 
-select * from sensore;
+
 delimiter //
 //
 create procedure `nuovoValore`(_idSensore int, x double)
