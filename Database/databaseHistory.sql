@@ -1,5 +1,5 @@
-drop database if exists databseHistory;
-
+drop database if exists databaseHistory;
+						
 create database databaseHistory;
 use databaseHistory;
 
@@ -10,7 +10,7 @@ create table sensore(
 
 create table storia(
 	ID integer unsigned not null primary key auto_increment,
-    valore float,
+    valore double,
     IDsensore integer unsigned default null,
     constraint storia_esnsore foreign key(IDsensore) references sensore(ID) on update cascade
 

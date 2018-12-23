@@ -53,7 +53,7 @@ create table areaAperto(
 create table sensore(
 	ID integer unsigned not null primary key auto_increment,
     IDspecifico varchar(100) unique not null,
-    valore float,
+    valore double,
     state tinyint,
     oraUltimoInvio timestamp default current_timestamp,
     oraInvioPrecedente timestamp,
@@ -81,7 +81,7 @@ insert into `sensore` value (default, 't1', 0, 1,current_timestamp(), current_ti
 select * from sensore;
 delimiter //
 //
-create procedure nuovoValore (_idSensore int, x float)
+create procedure `nuovoValore`(_idSensore int, x double)
 begin
 declare t time;
 select s.oraUltimoInvio from sensore s where _idSensore=s.ID into t;
