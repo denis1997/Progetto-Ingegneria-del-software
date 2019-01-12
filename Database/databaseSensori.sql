@@ -72,11 +72,52 @@ create table divisioneAperto(
 );
 
 insert into `citta` value (default,'l\'aquila');
+insert into `citta` value (default,'Teramo');
+insert into `citta` value (default,'Pescara');
+insert into `citta` value (default,'Avezzano');
+insert into `citta` value (default,'Atri');
 insert into `zona` value (default,'università',1);
+insert into `zona` value (default,'scuolaPrimaria',1);
+insert into `zona` value (default,'ospedale',1);
 insert into `edificio` value (default,'blocco 0', 1);
+insert into `edificio` value (default,'blocco 1', 1);
+insert into `edificio` value (default,'blocco 2', 1);
+insert into `edificio` value (default,'areaMedicina', 1);
 insert into `piano`value (default,'piano 1',1);
+insert into `piano`value (default,'piano 2',1);
+insert into `piano`value (default,'piano 3',1);
 insert into `areaPiano`value (default, 'aula 1', 1);
+
+insert into `areaaperto` value(default, 'garibaldi', 1);
+insert into `areaaperto` value(default, 'd\'annunzoio', 2);
+insert into `areaaperto` value(default, 'vittoria',1);
+
+insert into `areaPiano`value (default, 'aula 1', 1);
+insert into `areaPiano`value (default, 'aula 2', 1);
+insert into `areaPiano`value (default, 'aula 3', 1);
+insert into `areaPiano`value (default, 'aula 4', 1);
+insert into `areaPiano`value (default, 'aula 5', 1);
+insert into `areaPiano`value (default, 'aula 6', 1);
+insert into `areaPiano`value (default, 'corridoio 1', 1);
+insert into `areaPiano`value (default, 'corridoio 2', 1);
+insert into `areaPiano`value (default, 'aula 1', 2);
+insert into `areaPiano`value (default, 'aula 2', 2);
+insert into `areaPiano`value (default, 'aula 3', 2);
+insert into `areaPiano`value (default, 'aula 4', 2);
+insert into `areaPiano`value (default, 'aula 5', 2);
+insert into `areaPiano`value (default, 'aula 6', 2);
+insert into `areaPiano`value (default, 'corridoio 1', 2);
+insert into `areaPiano`value (default, 'corridoio 2', 2);
 insert into `sensore` value (default, 't1', 0, 1,current_timestamp(), current_timestamp(),default,1);
+insert into `sensore` value (default, 't2', 0, 1,current_timestamp(), current_timestamp(),1,default);
+insert into `sensore` value (default, 't3', 0, 1,current_timestamp(), current_timestamp(),default,1);
+insert into `sensore` value (default, 't4', 0, 1,current_timestamp(), current_timestamp(),default,5);
+insert into `sensore` value (default, 'u1', 0, 1,current_timestamp(), current_timestamp(),default,1);
+insert into `sensore` value (default, 'u2', 0, 1,current_timestamp(), current_timestamp(),2,default);
+insert into `sensore` value (default, 'u3', 0, 1,current_timestamp(), current_timestamp(),default,1);
+insert into `sensore` value (default, 'l1', 0, 1,current_timestamp(), current_timestamp(),default,3);
+insert into `sensore` value (default, 'l2', 0, 1,current_timestamp(), current_timestamp(),default,4);
+insert into `divisioneAperto`value(1,1),(3,1),(2,3);
 
 select * from sensore;
 delimiter //
@@ -89,3 +130,5 @@ update sensore s set s.valore = x, s.oraUltimoInvio=current_timestamp(), s.oraIn
 end//
 
 
+
+select left(`IDspecifico`, 1) from databaseSensori.sensore where id = 1
