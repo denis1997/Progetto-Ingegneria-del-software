@@ -1,0 +1,15 @@
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.exe.config
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.exe
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.pdb
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\bin\Debug\WindowsApp2.xml
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\bin\Debug\MySql.Data.dll
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\bin\Debug\MySql.Data.xml
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.sln.vbprojAssemblyReference.cache
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Form1.resources
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.Resources.resources
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.sln.vbproj.GenerateResource.cache
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.sln.vbproj.CoreCompileInputs.cache
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.sln.vbproj.CopyComplete
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.exe
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.xml
+C:\Users\denis\source\repos\WindowsApp2\WindowsApp2\obj\Debug\WindowsApp2.pdb
