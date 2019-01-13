@@ -86,7 +86,6 @@ insert into `edificio` value (default,'areaMedicina', 1);
 insert into `piano`value (default,'piano 1',1);
 insert into `piano`value (default,'piano 2',1);
 insert into `piano`value (default,'piano 3',1);
-insert into `areaPiano`value (default, 'aula 1', 1);
 
 insert into `areaaperto` value(default, 'garibaldi', 1);
 insert into `areaaperto` value(default, 'd\'annunzoio', 2);
@@ -131,4 +130,4 @@ end//
 
 
 
-select left(`IDspecifico`, 1) from databaseSensori.sensore where id = 1
+select p.nome from edificio e join piano p where e.id=p.idedificio and  e.id = 1

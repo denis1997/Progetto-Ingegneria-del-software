@@ -26,6 +26,6 @@ insert into `sensore` values (default,'u3');
 insert into `sensore` values (default,'l1');
 insert into `sensore` values (default,'l2');
 
-
-
+select * from databasesensori.sensore;
+select * from databasehistory.storia
 
