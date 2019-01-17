@@ -65,13 +65,7 @@ create table sensore(
     constraint sensore_areaPiano foreign key(IDareaPiano) references areaPiano(ID) on update cascade on delete set null
 );
 
-create table divisioneAperto(
-	IDsottocategorie integer unsigned not null,
-    IDzona integer unsigned not null,
-	primary key (IDsottocategorie,IDzona),
-    constraint divisioneAperto_sottocategorie foreign key(IDsottocategorie) references sottocategorie(ID) on update cascade,
-    constraint divisioneAperto_zone foreign key(IDzona) references zona(ID) on update cascade
-);
+
 
 insert into `citta` value (default,'l\'aquila');
 insert into `citta` value (default,'Teramo');
@@ -118,8 +112,8 @@ insert into `sensore` value (default, 'u2', 0, 1,current_timestamp(), current_ti
 insert into `sensore` value (default, 'u3', 0, 1,current_timestamp(), current_timestamp(),default,1);
 insert into `sensore` value (default, 'l1', 0, 1,current_timestamp(), current_timestamp(),default,3);
 insert into `sensore` value (default, 'l2', 0, 1,current_timestamp(), current_timestamp(),default,8);
-
-
+insert into `areaPiano`value (default, 'aula 9', 1);
+insert into `piano`value (default,'piano 4',1);
 select * from sensore;
 delimiter //
 //
@@ -130,5 +124,5 @@ select s.oraUltimoInvio from sensore s where _idSensore=s.ID into t;
 update sensore s set s.valore = x, s.oraUltimoInvio=current_timestamp(), s.oraInvioPrecedente=t  where s.ID=_idSensore;
 end//
 
-
+select a.nome, s.id, a.id  from areaaperto a join sottocategorie s where a.idzona = 1 and a.idsottocategorie=s.id
 
