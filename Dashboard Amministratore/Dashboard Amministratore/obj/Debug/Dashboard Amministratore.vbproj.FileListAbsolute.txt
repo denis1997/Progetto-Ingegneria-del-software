@@ -1,0 +1,34 @@
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbprojAssemblyReference.cache
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form1.resources
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Resources.resources
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.GenerateResource.cache
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.CoreCompileInputs.cache
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.exe.config
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.exe
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.pdb
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.xml
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.exe
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.xml
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.pdb
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form2.resources
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\MySql.Data.dll
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\MySql.Data.xml
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.CopyComplete
+C:\Users\denis\source\repos\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form3.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.exe.config
+C:\Users\denis\Desktop\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.exe
+C:\Users\denis\Desktop\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.pdb
+C:\Users\denis\Desktop\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.xml
+C:\Users\denis\Desktop\Dashboard Amministratore\bin\Debug\MySql.Data.dll
+C:\Users\denis\Desktop\Dashboard Amministratore\bin\Debug\MySql.Data.xml
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbprojAssemblyReference.cache
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form1.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form2.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form3.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Resources.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.GenerateResource.cache
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.CoreCompileInputs.cache
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.CopyComplete
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.exe
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.xml
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.pdb
