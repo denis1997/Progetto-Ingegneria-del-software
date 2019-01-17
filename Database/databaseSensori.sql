@@ -10,6 +10,7 @@ create table citta(
 
 create table zona(
 	ID integer unsigned not null primary key auto_increment,
+    IDposizione integer unsigned not null,
 	nome varchar(100)not null,
 	IDcitta integer unsigned not null,
     constraint zona_citta foreign key(IDcitta) references citta(ID) on update cascade on delete cascade
@@ -17,6 +18,7 @@ create table zona(
 
 create table edificio(
 	ID integer unsigned not null primary key auto_increment,
+    IDposizione integer unsigned not null,
     nome varchar(100)not null,
     IDzona integer unsigned not null,
     constraint edificio_zona foreign key(IDzona) references zona(ID) on update cascade on delete cascade
@@ -31,6 +33,7 @@ insert into `sottocategorie` values (1,'piazze'),(2,'parchi'),(3,'vie'),(4,'parc
 
 create table piano(
 	ID integer unsigned not null primary key auto_increment,
+    IDposizione integer unsigned not null,
     nome varchar(100)not null,
 	IDedificio integer unsigned not null,
     constraint piano_edificio foreign key(IDedificio) references edificio(ID) on update cascade on delete cascade
@@ -38,6 +41,7 @@ create table piano(
 
 create table areaPiano(
 	ID integer unsigned not null primary key auto_increment,
+    IDposizione integer unsigned not null,
     nome varchar(100)not null,
     IDpiano integer unsigned not null,
     constraint areapiano_piano foreign key(IDpiano) references piano(ID) on update cascade on delete cascade
@@ -45,6 +49,7 @@ create table areaPiano(
 
 create table areaAperto(
 	ID integer unsigned not null primary key auto_increment,
+    IDposizione integer unsigned not null,
     nome varchar(100)not null,
     IDsottocategorie integer unsigned not null,
     IDzona integer unsigned not null,
@@ -72,37 +77,37 @@ insert into `citta` value (default,'Teramo');
 insert into `citta` value (default,'Pescara');
 insert into `citta` value (default,'Avezzano');
 insert into `citta` value (default,'Atri');
-insert into `zona` value (default,'università',1);
-insert into `zona` value (default,'scuolaPrimaria',1);
-insert into `zona` value (default,'ospedale',1);
-insert into `edificio` value (default,'blocco 0', 1);
-insert into `edificio` value (default,'blocco 1', 1);
-insert into `edificio` value (default,'blocco 2', 1);
-insert into `edificio` value (default,'areaMedicina', 1);
-insert into `piano`value (default,'piano 1',1);
-insert into `piano`value (default,'piano 2',1);
-insert into `piano`value (default,'piano 3',1);
+insert into `zona` value (default,1,'università',1);
+insert into `zona` value (default,2,'scuolaPrimaria',1);
+insert into `zona` value (default,3,'ospedale',1);
+insert into `edificio` value (default,1,'blocco 0', 1);
+insert into `edificio` value (default,2,'blocco 1', 1);
+insert into `edificio` value (default,3,'blocco 2', 1);
+insert into `edificio` value (default,4,'areaMedicina', 1);
+insert into `piano`value (default,1,'piano 1',1);
+insert into `piano`value (default,2,'piano 2',1);
+insert into `piano`value (default,3,'piano 3',1);
 
-insert into `areaaperto` value(default, 'garibaldi', 1,1);
-insert into `areaaperto` value(default, 'd\'annunzoio', 2,1);
-insert into `areaaperto` value(default, 'vittoria',1,1);
+insert into `areaaperto` value(default,1, 'garibaldi', 1,1);
+insert into `areaaperto` value(default,2, 'd\'annunzoio', 2,1);
+insert into `areaaperto` value(default,3, 'vittoria',1,1);
 
-insert into `areaPiano`value (default, 'aula 1', 1);
-insert into `areaPiano`value (default, 'aula 2', 1);
-insert into `areaPiano`value (default, 'aula 3', 1);
-insert into `areaPiano`value (default, 'aula 4', 1);
-insert into `areaPiano`value (default, 'aula 5', 1);
-insert into `areaPiano`value (default, 'aula 6', 1);
+insert into `areaPiano`value (default,1, 'aula 1', 1);
+insert into `areaPiano`value (default,2, 'aula 2', 1);
+insert into `areaPiano`value (default,3, 'aula 3', 1);
+insert into `areaPiano`value (default,4, 'aula 4', 1);
+insert into `areaPiano`value (default,5, 'aula 5', 1);
+insert into `areaPiano`value (default,6, 'aula 6', 1);
 /*insert into `areaPiano`value (default, 'corridoio 1', 1);*/
-insert into `areaPiano`value (default, 'corridoio 2', 1);
-insert into `areaPiano`value (default, 'aula 1', 2);
-insert into `areaPiano`value (default, 'aula 2', 2);
-insert into `areaPiano`value (default, 'aula 3', 2);
-insert into `areaPiano`value (default, 'aula 4', 2);
-insert into `areaPiano`value (default, 'aula 5', 2);
-insert into `areaPiano`value (default, 'aula 6', 2);
-insert into `areaPiano`value (default, 'corridoio 1', 2);
-insert into `areaPiano`value (default, 'corridoio 2', 2);
+insert into `areaPiano`value (default,7, 'corridoio 2', 1);
+insert into `areaPiano`value (default,1, 'aula 1', 2);
+insert into `areaPiano`value (default,2, 'aula 2', 2);
+insert into `areaPiano`value (default,3, 'aula 3', 2);
+insert into `areaPiano`value (default,4, 'aula 4', 2);
+insert into `areaPiano`value (default,5, 'aula 5', 2);
+insert into `areaPiano`value (default,6, 'aula 6', 2);
+insert into `areaPiano`value (default,7, 'corridoio 1', 2);
+insert into `areaPiano`value (default,8, 'corridoio 2', 2);
 insert into `sensore` value (default, 't1', 0, 1,current_timestamp(), current_timestamp(),default,1);
 insert into `sensore` value (default, 't2', 0, 1,current_timestamp(), current_timestamp(),1,default);
 insert into `sensore` value (default, 't3', 0, 1,current_timestamp(), current_timestamp(),default,1);
@@ -112,8 +117,8 @@ insert into `sensore` value (default, 'u2', 0, 1,current_timestamp(), current_ti
 insert into `sensore` value (default, 'u3', 0, 1,current_timestamp(), current_timestamp(),default,1);
 insert into `sensore` value (default, 'l1', 0, 1,current_timestamp(), current_timestamp(),default,3);
 insert into `sensore` value (default, 'l2', 0, 1,current_timestamp(), current_timestamp(),default,8);
-insert into `areaPiano`value (default, 'aula 9', 1);
-insert into `piano`value (default,'piano 4',1);
+insert into `areaPiano`value (default,8, 'aula 9', 1);
+insert into `piano`value (default,4,'piano 4',1);
 select * from sensore;
 delimiter //
 //
