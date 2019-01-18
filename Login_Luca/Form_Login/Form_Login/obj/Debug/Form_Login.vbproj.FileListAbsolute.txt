@@ -1,0 +1,30 @@
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.exe.config
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.exe
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.pdb
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.xml
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbprojAssemblyReference.cache
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.Form1.resources
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.Resources.resources
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.GenerateResource.cache
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.CoreCompileInputs.cache
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.exe
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.xml
+C:\Users\ds97\Desktop\Login\Login_Gestore\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.pdb
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.exe.config
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.exe
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.pdb
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\Form_Login.xml
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbprojAssemblyReference.cache
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.Form1.resources
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.Resources.resources
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.GenerateResource.cache
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.CoreCompileInputs.cache
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.exe
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.xml
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.pdb
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\bin\Debug\MySql.Data.dll
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.CopyComplete
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.FormEdificio.resources
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.FormZona.resources
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.FormCitta.resources
+C:\Users\ds97l\Google Drive\Università\Ingegneria del software\Login_GestoreBasic\Form_Login\Form_Login\obj\Debug\Form_Login.FormAmministratore.resources
