@@ -32,3 +32,17 @@ C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministrato
 C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.exe
 C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.xml
 C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.pdb
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form4.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form5.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form10.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form6.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form7.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form8.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form9.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form11.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form12.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form13.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form14.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form15.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form16.resources
+C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form17.resources
