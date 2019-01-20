@@ -2,14 +2,12 @@
 Public Class Form3
     Dim connection As New MySqlConnection
     Dim command As MySqlCommand
-    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         connection = New MySqlConnection
-        connection.ConnectionString = "server=localhost; username=root; password=denis1997; database=databasegestore;"
+        connection.ConnectionString = "server=localhost; username=root; password=andrea98; database=databasegestore;"
         Dim READER As MySqlDataReader
 
 
@@ -34,7 +32,4 @@ Public Class Form3
 
     End Sub
 
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-
-    End Sub
 End Class

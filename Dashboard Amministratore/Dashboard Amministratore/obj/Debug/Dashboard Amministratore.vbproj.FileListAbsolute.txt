@@ -46,3 +46,35 @@ C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministrato
 C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form15.resources
 C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form16.resources
 C:\Users\denis\Desktop\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form17.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.exe.config
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.exe
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.pdb
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Dashboard Amministratore.xml
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\MySql.Data.xml
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbprojAssemblyReference.cache
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form1.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form10.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form11.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form12.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form13.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form14.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form15.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form16.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form17.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form2.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form3.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form4.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form5.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form6.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form7.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form8.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Form9.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard_Amministratore.Resources.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.GenerateResource.cache
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.CoreCompileInputs.cache
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.vbproj.CopyComplete
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.exe
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.xml
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\obj\Debug\Dashboard Amministratore.pdb
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\MySql.Data.dll
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Dashboard Amministratore\Dashboard Amministratore\bin\Debug\Google.Protobuf.dll

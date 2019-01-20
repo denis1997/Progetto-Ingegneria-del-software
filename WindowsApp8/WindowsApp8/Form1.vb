@@ -121,10 +121,11 @@ Public Class Form1
             reader.Close()
 
             For j As Integer = 1 To i4
-                s5 = "select a.nome, a.idposizione from areapiano a where a.idpiano = @id"
+                s5 = "select a.nome, a.idposizione from areapiano a join piano p where p.id=a.idpiano and a.idpiano = @id and p.idedificio=@id1"
 
                 command5 = New MySqlCommand(s5, connection)
                 command5.Parameters.Add("@id", MySqlDbType.Int32).Value = j
+                command5.Parameters.Add("@id1", MySqlDbType.Int32).Value = i
                 reader = command5.ExecuteReader
                 While reader.Read()
                     i5 += 1
@@ -580,7 +581,9 @@ Public Class Form1
     Dim myname2 As New Integer
 
     Sub myvisible1(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
         myname1 = CInt(sender.name)
+
         For z As Integer = 1 To i3
             For z1 As Integer = 1 To arrayEndE1(z)
                 For z2 As Integer = 0 To arrayEndE(z)(z1) - 1

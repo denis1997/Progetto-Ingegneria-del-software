@@ -9,14 +9,14 @@ Public Class Form2
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         connection = New MySqlConnection
-        connection.ConnectionString = "server=localhost; username=root; database=databasegestore;"
+        connection.ConnectionString = "server=localhost; username=root; password=andrea98; database=databasegestore;"
         Dim READER As MySqlDataReader
 
 
         Try
             connection.Open()
             Dim query As String
-            query = "insert into databasegestore.gestore (ID , username , password_ , tipoArea, IDArea) values('" & TextBox1.Text & "', '" & TextBox2.Text & "', '" & TextBox3.Text & "', '" & TextBox4.Text & "', '" & TextBox5.Text & "'  )"
+            query = "insert into databasegestore.gestore ( username , password_ , tipoArea, IDArea) values( '" & TextBox2.Text & "', '" & TextBox3.Text & "', '" & TextBox4.Text & "', '" & TextBox5.Text & "'  )"
             command = New MySqlCommand(query, connection)
             READER = command.ExecuteReader
 
@@ -35,7 +35,7 @@ Public Class Form2
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 End Class

@@ -23,95 +23,92 @@ Partial Class Form9
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button2.Location = New System.Drawing.Point(123, 180)
+        Me.Button2.Location = New System.Drawing.Point(328, 429)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(150, 40)
+        Me.Button2.Size = New System.Drawing.Size(400, 95)
         Me.Button2.TabIndex = 22
         Me.Button2.Text = "AGGIUNGI AREA PIANO"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(241, 112)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(86, 20)
-        Me.Button1.TabIndex = 21
-        Me.Button1.Text = "Elenco piani"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(135, 112)
+        Me.TextBox3.Location = New System.Drawing.Point(360, 267)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(260, 38)
         Me.TextBox3.TabIndex = 20
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(135, 72)
+        Me.TextBox2.Location = New System.Drawing.Point(360, 172)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(260, 38)
         Me.TextBox2.TabIndex = 19
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(135, 32)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 18
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 112)
+        Me.Label3.Location = New System.Drawing.Point(32, 267)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(34, 13)
+        Me.Label3.Size = New System.Drawing.Size(116, 32)
         Me.Label3.TabIndex = 17
-        Me.Label3.Text = "Piano"
+        Me.Label3.Text = "IDPiano"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 72)
+        Me.Label2.Location = New System.Drawing.Point(32, 172)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(35, 13)
+        Me.Label2.Size = New System.Drawing.Size(90, 32)
         Me.Label2.TabIndex = 16
         Me.Label2.Text = "Nome"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 32)
+        Me.Label1.Location = New System.Drawing.Point(817, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(66, 13)
-        Me.Label1.TabIndex = 15
-        Me.Label1.Text = "ID Posizione"
+        Me.Label1.Size = New System.Drawing.Size(184, 32)
+        Me.Label1.TabIndex = 23
+        Me.Label1.Text = "Elenco Piano"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 31
+        Me.ListBox1.Location = New System.Drawing.Point(807, 57)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(246, 500)
+        Me.ListBox1.TabIndex = 24
         '
         'Form9
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(396, 241)
+        Me.ClientSize = New System.Drawing.Size(1056, 575)
+        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Name = "Form9"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form9"
@@ -121,11 +118,10 @@ Partial Class Form9
     End Sub
 
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents ListBox1 As ListBox
 End Class
