@@ -1,0 +1,38 @@
+Il sequente sequence diagram mostra le interazioni(basate sul tempo) tra gli oggetti.
+-Il sequence nella figura 1 mostra le interazioni che permettono di mostrare i valori dei sensori sulla dashboard.
+Il sensore invia ripetutamente (indicato dall'operatore loop) i suoi dati e il suo stato di funzionamento al DatabasSensori.
+Il gestore per accedere alla dashboard invia i propri dati di accesso alla dashboard che vengono confrontati con il database gestori e solo se sono corretti sarà permesso l'accesso.Una volta effettuato l'accesso il gestore potrà selezionare un area sulla dashboard.
+Abbiamo poi un altro ciclo di azioni:
+   1)la dashboard ricerca i valori nel DatabaseSensori
+   2)in base all'operatore alt, che rappresenta una scelta,il       databaseSensori mostra i valori sulla dashboard in giallo,rosso o verde   a seconda che ci sia un valore fuori soglia, più valori fuori soglia      o il valore è nella norma.
+Infine, in caso di problema grave verrà mostrato un avviso sulla dashboard(nell'operatore opt).
+
+-Il sequence nella figura 2 mostra le iterazioni che permettono l'inserimento e la rimozione di sensori,aree e gestori e per settare il massimale.
+É presente una sequenza di par che indicano l'ordine in cui le operazioni devono essere eseguite.
+Per l'inserimento/rimozione di un'area, l'amministratore invia i dati di inserimento/rimozione dell'area alla DashboardAmministratore che li comunica al DatabaseSensori.
+Per l'inserimento/rimozione di un sensore il gestore inserisce i dati sulla dashboardGestore e il sensore verrà inserito/rimosso nel databaseSensori e nel databaseHistory.
+Per l'inserimento/rimozione di un gestore,l'amministratore inserisce i dati nel dashboardAmministratore che comunica con il databaseGestori per l'inserimento/rimozione di un gestore.
+Per settare il massimale, il gestore inserisce il nuovo massimale nella dashboardGestore che comunica con il sensore e setta il nuovo valore.
+
+Nel sequence in figura 3 sono presenti due operatori loop.
+Nel primo il sensore genera i valori continuamente.
+Nel secondo ci sono due operatori par nei quali il sensore invia valori e stato di funzionamento al databaseSensori e in caso di valori fuori soglia questi vengono inviati al databaseHistory.
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
