@@ -8,7 +8,7 @@ Public Class Form1
     Dim command As MySqlCommand
     Dim reader As MySqlDataReader
     Dim s As String
-
+    Public abab As Integer
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         Me.Close()
     End Sub
@@ -47,7 +47,7 @@ Public Class Form1
             reader = command.ExecuteReader
 
             If reader.Read Then
-
+                abab = reader(1)
                 Select Case CStr(reader(0))
                     Case "edificio"
                         FormEdificio.Show()
@@ -83,4 +83,5 @@ Public Class Form1
         End If
 
     End Sub
+
 End Class
