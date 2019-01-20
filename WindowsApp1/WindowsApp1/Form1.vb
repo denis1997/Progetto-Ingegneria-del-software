@@ -7,6 +7,8 @@ Public Class Form1
     Dim command2 As MySqlCommand
     Dim command3 As MySqlCommand
     Dim reader As MySqlDataReader
+    Dim s As String
+    Dim command As MySqlCommand
     Dim s1 As String
     Dim s2 As String
     Dim s3 As String
@@ -23,39 +25,80 @@ Public Class Form1
     Dim o2 As Date
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        s = "select max(p.idposizione) from edificio e join piano p where e.id=p.idedificio And  e.id = @id"
+        command = New MySqlCommand(s, connection)
+        command.Parameters.Add("@id", MySqlDbType.Int32).Value = 1
+
+        Try
+            connection.Open()
+
+            reader = command.ExecuteReader
+
+            If reader.Read() Then
+
+                If reader.IsDBNull(0) Then
+
+                    i1 = 0
+                Else
+
+                    i1 = reader(0)
+
+                End If
+
+            End If
+
+                reader.Close()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+
+        End Try
+
+
         s1 = "select p.nome, p.idposizione from edificio e join piano p where e.id=p.idedificio and  e.id = @id"
         command1 = New MySqlCommand(s1, connection)
 
         command1.Parameters.Add("@id", MySqlDbType.Int32).Value = 1
 
         Try
-            connection.Open()
 
-            reader = command1.ExecuteReader
-
-            While reader.Read()
-                i1 += 1
-            End While
-
-            reader.Close()
             ReDim arrayEnd(i1)
             ReDim MyButton(i1)
             ReDim mymenu(i1)
 
+
             For i As Integer = 1 To i1
+
+                s = "select max(a.idposizione) from piano p join areapiano a where p.id=a.idpiano and  p.id = @id"
+                command = New MySqlCommand(s, connection)
+                command.Parameters.Add("@id", MySqlDbType.Int32).Value = i
+
+
+
+
+                reader = command.ExecuteReader
+
+                If reader.Read() Then
+                    If reader.IsDBNull(0) Then
+                        i2 = 0
+                    Else
+                        i2 = reader(0)
+
+                    End If
+
+
+                End If
+
+                reader.Close()
+
+
+                MyButton(i) = New Button(i2) {}
+                mymenu(i) = New MenuStrip(i2) {}
+
                 s2 = "select a.nome, a.idposizione from piano p join areapiano a where p.id=a.idpiano and  p.id = @id"
                 command2 = New MySqlCommand(s2, connection)
 
                 command2.Parameters.Add("@id", MySqlDbType.Int32).Value = i
-                reader = command2.ExecuteReader
 
-                While reader.Read()
-                    i2 += 1
-                End While
-                reader.Close()
-
-                MyButton(i) = New Button(i2) {}
-                mymenu(i) = New MenuStrip(i2) {}
 
 
                 reader = command1.ExecuteReader
@@ -88,7 +131,9 @@ Public Class Form1
 
                 reader = command2.ExecuteReader
                 While reader.Read
+
                     MyButton(i)(w) = New Button
+
                     If (w - 1) = (a * 3) Then
                         a += 1
                         b = 0
