@@ -33,9 +33,10 @@ Partial Class Form4
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(21, 12)
+        Me.Button1.Location = New System.Drawing.Point(32, 18)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(213, 39)
+        Me.Button1.Size = New System.Drawing.Size(320, 60)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Aggiungi citta"
         Me.Button1.UseVisualStyleBackColor = True
@@ -43,9 +44,10 @@ Partial Class Form4
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(21, 69)
+        Me.Button2.Location = New System.Drawing.Point(32, 106)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(213, 39)
+        Me.Button2.Size = New System.Drawing.Size(320, 60)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Aggiungi zona"
         Me.Button2.UseVisualStyleBackColor = True
@@ -53,9 +55,10 @@ Partial Class Form4
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(21, 126)
+        Me.Button3.Location = New System.Drawing.Point(32, 194)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(213, 39)
+        Me.Button3.Size = New System.Drawing.Size(320, 60)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Aggiungi edificio"
         Me.Button3.UseVisualStyleBackColor = True
@@ -63,44 +66,48 @@ Partial Class Form4
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(21, 240)
+        Me.Button4.Location = New System.Drawing.Point(32, 369)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(213, 39)
-        Me.Button4.TabIndex = 3
+        Me.Button4.Size = New System.Drawing.Size(320, 60)
+        Me.Button4.TabIndex = 4
         Me.Button4.Text = "Aggiungi area all'aperto"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(21, 183)
+        Me.Button5.Location = New System.Drawing.Point(32, 282)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(213, 39)
-        Me.Button5.TabIndex = 4
+        Me.Button5.Size = New System.Drawing.Size(320, 60)
+        Me.Button5.TabIndex = 3
         Me.Button5.Text = "Aggiungi piano"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(21, 297)
+        Me.Button6.Location = New System.Drawing.Point(32, 457)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(213, 39)
+        Me.Button6.Size = New System.Drawing.Size(320, 60)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "Aggiungi area del piano"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Form4
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(602, 347)
+        Me.ClientSize = New System.Drawing.Size(903, 534)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form4"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form4"
