@@ -30,3 +30,6 @@ C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Wi
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.exe
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.xml
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.pdb
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.Form2.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.Form3.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.Form4.resources

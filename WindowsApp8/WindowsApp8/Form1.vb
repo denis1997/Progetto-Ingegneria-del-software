@@ -7,7 +7,7 @@ Imports MySql.Data.MySqlClient
 
 Public Class Form1
 
-    Dim zona As New Integer
+    Public zona As New Integer
     Dim connection As New MySqlConnection("datasource=localhost;port=3306;username=root;password=andrea98;database=databasesensori;SslMode=none;")
     Dim command1 As MySqlCommand
     Dim command2 As MySqlCommand
@@ -53,7 +53,7 @@ Public Class Form1
 
         command3.Parameters.Add("@id", MySqlDbType.Int32).Value = zona
 
-        'try
+
         connection.Open()
 
         reader = command3.ExecuteReader
@@ -102,12 +102,12 @@ Public Class Form1
                         .Name = reader(1).ToString
                         .Text = reader.GetString("nome")
                         .Visible = False
-                        .Top = 200 + (100 * i)
+                        .Top = 50 + (50 * i)
                         .Left = 200
-                        .Width = 180
-                        .Height = 60
+                        .Width = 100
+                        .Height = 40
                         .TextAlign = ContentAlignment.MiddleCenter
-                        .Font = New Font("Microsoft Sans Serif", 20, FontStyle.Bold)
+                        .Font = New Font("Microsoft Sans Serif", 10)
                         .BackColor = Color.Green
                         AddHandler .Click, AddressOf myvisible1
 
@@ -146,12 +146,12 @@ Public Class Form1
                             .Name = reader(1).ToString
                             .Text = reader.GetString("nome")
                             .Visible = False
-                            .Top = 200 + (100 * j)
-                            .Left = 400
-                            .Width = 180
-                            .Height = 60
+                            .Top = 50 + (50 * j)
+                            .Left = 310
+                            .Width = 100
+                            .Height = 40
                             .TextAlign = ContentAlignment.MiddleCenter
-                            .Font = New Font("Microsoft Sans Serif", 20, FontStyle.Bold)
+                            .Font = New Font("Microsoft Sans Serif", 10)
                             .BackColor = Color.Green
                             AddHandler .Click, AddressOf myvisible2
                         End With
@@ -176,12 +176,12 @@ Public Class Form1
                         .Name = reader(1).ToString
                         .Text = reader.GetString("nome")
                         .Visible = False
-                        .Top = 200 + (100 * a)
-                        .Left = 600 + (200 * b)
-                        .Width = 180
-                        .Height = 60
+                        .Top = 70 + (50 * a)
+                        .Left = 460 + (120 * b)
+                        .Width = 100
+                        .Height = 40
                         .TextAlign = ContentAlignment.MiddleCenter
-                        .Font = New Font("Microsoft Sans Serif", 20, FontStyle.Bold)
+                        .Font = New Font("Microsoft Sans Serif", 10)
                         .BackColor = Color.Green
                         AddHandler .Click, AddressOf myvisible3
 
@@ -282,6 +282,10 @@ Public Class Form1
             Next
 
         Next
+
+        Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20)
+        Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20, System.Drawing.FontStyle.Bold)
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -325,25 +329,45 @@ Public Class Form1
         For z As Integer = 1 To i3
             myButtonE(z)(0)(0).Visible = True
         Next
+
+        Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20)
+        Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20, System.Drawing.FontStyle.Bold)
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         indice = 1
+        Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
         buttondisplay()
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         indice = 2
+        Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
         buttondisplay()
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         indice = 3
+        Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
         buttondisplay()
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         indice = 4
+        Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
+        Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
         buttondisplay()
     End Sub
 
@@ -415,12 +439,12 @@ Public Class Form1
                     .Name = position(reader(1)).ToString
                     .Text = reader.GetString("nome")
                     .Visible = False
-                    .Top = 200 + (100 * a(reader(1)))
-                    .Left = 400 + (200 * b(reader(1)))
-                    .Width = 180
-                    .Height = 60
+                    .Top = 50 + (50 * a(reader(1)))
+                    .Left = 400 + (120 * b(reader(1)))
+                    .Width = 100
+                    .Height = 40
                     .TextAlign = ContentAlignment.MiddleCenter
-                    .Font = New Font("Microsoft Sans Serif", 20, FontStyle.Bold)
+                    .Font = New Font("Microsoft Sans Serif", 10)
                     .BackColor = Color.Green
                     AddHandler .Click, AddressOf mymessage
 
@@ -585,6 +609,8 @@ Public Class Form1
         myname1 = CInt(sender.name)
 
         For z As Integer = 1 To i3
+
+            myButtonE(z)(0)(0).Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
             For z1 As Integer = 1 To arrayEndE1(z)
                 For z2 As Integer = 0 To arrayEndE(z)(z1) - 1
 
@@ -606,12 +632,13 @@ Public Class Form1
         For z As Integer = 1 To arrayEndE1(myname1)
             myButtonE(myname1)(z)(0).Visible = True
         Next
-
+        sender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
     End Sub
     Sub myvisible2(ByVal sender As System.Object, ByVal e As System.EventArgs)
         myname2 = CInt(sender.name)
 
         For z1 As Integer = 1 To arrayEndE1(myname1)
+            myButtonE(myname1)(z1)(0).Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
             For z2 As Integer = 1 To arrayEndE(myname1)(z1) - 1
 
                 myButtonE(myname1)(z1)(z2).Visible = False
@@ -630,7 +657,7 @@ Public Class Form1
         For z As Integer = 1 To arrayEndE(myname1)(myname2) - 1
             myButtonE(myname1)(myname2)(z).Visible = True
         Next
-
+        sender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
     End Sub
     Sub myvisible3(ByVal sender As System.Object, ByVal e As System.EventArgs)
         For z As Integer = 1 To i3
@@ -648,4 +675,18 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Form2.Show()
+        Form2.BringToFront()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Form3.Show()
+        Form3.BringToFront()
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Form4.Show()
+        Form4.BringToFront()
+    End Sub
 End Class

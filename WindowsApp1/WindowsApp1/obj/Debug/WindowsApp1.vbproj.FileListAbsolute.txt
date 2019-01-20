@@ -30,3 +30,6 @@ C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Wi
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form2.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form3.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form4.resources

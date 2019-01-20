@@ -24,10 +24,12 @@ Public Class Form1
     Dim o1 As Date
     Dim o2 As Date
 
+    Public edificio As Integer = 1
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         s = "select max(p.idposizione) from edificio e join piano p where e.id=p.idedificio And  e.id = @id"
         command = New MySqlCommand(s, connection)
-        command.Parameters.Add("@id", MySqlDbType.Int32).Value = 1
+        command.Parameters.Add("@id", MySqlDbType.Int32).Value = edificio
 
         Try
             connection.Open()
@@ -57,7 +59,7 @@ Public Class Form1
         s1 = "select p.nome, p.idposizione from edificio e join piano p where e.id=p.idedificio and  e.id = @id"
         command1 = New MySqlCommand(s1, connection)
 
-        command1.Parameters.Add("@id", MySqlDbType.Int32).Value = 1
+        command1.Parameters.Add("@id", MySqlDbType.Int32).Value = edificio
 
         Try
 
@@ -111,11 +113,11 @@ Public Class Form1
                             .Name = reader(1).ToString
                             .Text = reader.GetString("nome")
                             .Visible = True
-                            .Top = 20 + (100 * i)
-                            .Width = 180
-                            .Height = 60
+                            .Top = 50 + (50 * i)
+                            .Width = 100
+                            .Height = 40
                             .TextAlign = ContentAlignment.MiddleCenter
-                            .Font = New Font("Microsoft Sans Serif", 20, FontStyle.Bold)
+                            .Font = New Font("Microsoft Sans Serif", 10)
                             .BackColor = Color.Green
                             AddHandler .Click, AddressOf myvisible
                         End With
@@ -142,12 +144,12 @@ Public Class Form1
                         .Name = reader(1).ToString
                         .Text = reader.GetString("nome")
                         .Visible = False
-                        .Top = 200 + (100 * a)
-                        .Left = 200 + (200 * b)
-                        .Width = 180
-                        .Height = 60
+                        .Top = 70 + (50 * a)
+                        .Left = 200 + (120 * b)
+                        .Width = 100
+                        .Height = 40
                         .TextAlign = ContentAlignment.MiddleCenter
-                        .Font = New Font("Microsoft Sans Serif", 20, FontStyle.Bold)
+                        .Font = New Font("Microsoft Sans Serif", 10)
                         .BackColor = Color.Green
                         AddHandler .Click, AddressOf mymessage
 
@@ -200,7 +202,7 @@ Public Class Form1
 
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        s3 = "select s.idspecifico, s.valore, s.oraultimoinvio, s.orainvioprecedente, s.idareapiano, a.idpiano, a.idposizione, p.idposizione from piano p join areapiano a join sensore s where a.id=s.idareapiano and p.id=a.idpiano and p.idedificio=@id;"
+        s3 = "select s.idspecifico, s.valore, s.oraultimoinvio, s.orainvioprecedente, s.idareapiano, a.idpiano, a.idposizione, p.idposizione, s.state from piano p join areapiano a join sensore s where a.id=s.idareapiano and p.id=a.idpiano and p.idedificio=@id;"
 
         command3 = New MySqlCommand(s3, connection)
 
@@ -229,17 +231,23 @@ Public Class Form1
                 o2 = reader(3)
                 Dim c As Long = DateDiff(DateInterval.Second, o2, o1)
 
+                If reader(8) = 0 Then
 
-                If Math.Abs(c) < 20 Then
-                    MyButton(reader(7))(0).BackColor = Color.Yellow
-                    MyButton(reader(7))(reader(6)).BackColor = Color.Yellow
+                    mymenu(reader(7))(reader(6)).Items.Add(reader(0).ToString).BackColor = Color.Violet
 
-                    mymenu(reader(7))(reader(6)).Items.Add(reader(0).ToString + "       " + reader(1).ToString).BackColor = Color.Yellow
                 Else
-                    mymenu(reader(7))(reader(6)).Items.Add(reader(0).ToString + "       " + reader(1).ToString).BackColor = Color.Green
-                End If
-                mymenu(reader(7))(reader(6)).BringToFront()
+                    If Math.Abs(c) < 20 Then
+                        MyButton(reader(7))(0).BackColor = Color.Yellow
+                        MyButton(reader(7))(reader(6)).BackColor = Color.Yellow
 
+                        mymenu(reader(7))(reader(6)).Items.Add(reader(0).ToString + "       " + reader(1).ToString).BackColor = Color.Yellow
+                    Else
+                        mymenu(reader(7))(reader(6)).Items.Add(reader(0).ToString + "       " + reader(1).ToString).BackColor = Color.Green
+                    End If
+                    mymenu(reader(7))(reader(6)).BringToFront()
+
+
+                End If
 
 
             End While
@@ -258,13 +266,16 @@ Public Class Form1
         myname = CInt(sender.name)
 
         For z As Integer = 1 To i1
+
+            MyButton(z)(0).Font = New System.Drawing.Font("Microsoft Sans Serif", 10)
             For z1 As Integer = 1 To arrayEnd(z) - 1
                 MyButton(z)(z1).Visible = False
+
                 mymenu(z)(z1).Visible = False
             Next
 
         Next
-
+        sender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10, System.Drawing.FontStyle.Bold)
         For z As Integer = 1 To arrayEnd(myName) - 1
             MyButton(myName)(z).Visible = True
         Next
@@ -285,4 +296,18 @@ Public Class Form1
         mymenu(myname)(CInt(sender.name)).Location = New System.Drawing.Point(sender.left, sender.top + sender.height)
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form2.Show()
+        Form2.BringToFront()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Form3.Show()
+        Form3.BringToFront()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Form4.Show()
+        Form4.BringToFront()
+    End Sub
 End Class

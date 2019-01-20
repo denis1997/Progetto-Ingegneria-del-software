@@ -12,7 +12,7 @@ create table storia(
 	ID integer unsigned not null primary key auto_increment,
     valore double,
     IDsensore integer unsigned default null,
-    constraint storia_esnsore foreign key(IDsensore) references sensore(ID) on update cascade
+    constraint storia_esnsore foreign key(IDsensore) references sensore(ID) on update cascade on delete cascade
 
 );
 
@@ -27,5 +27,5 @@ insert into `sensore` values (default,'l1');
 insert into `sensore` values (default,'l2');
 
 select * from databasesensori.sensore;
-select * from databasehistory.storia
+select * from databasehistory.sensore
 
