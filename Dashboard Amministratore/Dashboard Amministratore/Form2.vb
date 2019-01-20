@@ -9,7 +9,7 @@ Public Class Form2
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         connection = New MySqlConnection
-        connection.ConnectionString = "server=localhost; username=root; password=denis1997; database=databasegestore;"
+        connection.ConnectionString = "server=localhost; username=root; database=databasegestore;"
         Dim READER As MySqlDataReader
 
 
@@ -30,6 +30,7 @@ Public Class Form2
             connection.Dispose()
 
         End Try
+        Me.Hide()
 
 
     End Sub
