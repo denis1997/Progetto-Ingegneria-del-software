@@ -223,7 +223,7 @@ Public Class Formzona
 
         Next
         connection.Close()
-        Me.Timer1.Interval = CInt(TimeSpan.FromSeconds(10).TotalMilliseconds)
+        Me.Timer1.Interval = CInt(TimeSpan.FromSeconds(30).TotalMilliseconds)
         Me.Timer1.Start()
 
     End Sub

@@ -54,3 +54,28 @@ C:\Users\ds97l\OneDrive\Documents\GitHub\Progetto-ingegneria-del-software\Login_
 C:\Users\ds97l\OneDrive\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.exe
 C:\Users\ds97l\OneDrive\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.xml
 C:\Users\ds97l\OneDrive\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.pdb
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\Form_Login.exe.config
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\Form_Login.exe
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\Form_Login.pdb
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\Form_Login.xml
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\MySql.Data.dll
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\Google.Protobuf.dll
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.vbprojAssemblyReference.cache
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form1.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form10.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form11.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Formedificio.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Formzona.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.FormCitta.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form5.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form6.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form7.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form8.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form9.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Resources.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.GenerateResource.cache
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.CoreCompileInputs.cache
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.vbproj.CopyComplete
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.exe
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.xml
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.pdb

@@ -128,7 +128,7 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        Me.Timer1.Interval = CInt(TimeSpan.FromSeconds(10).TotalMilliseconds)
+        Me.Timer1.Interval = CInt(TimeSpan.FromSeconds(30).TotalMilliseconds)
         Me.Timer1.Start()
 
     End Sub
@@ -173,27 +173,37 @@ Public Class Form1
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Try
+            s1 = "UPDATE sensore SET  state=@s where idspecifico=@id"
+            command1 = New MySqlCommand(s1, connection)
+            command1.Parameters.AddWithValue("@s", 0)
+            command1.Parameters.AddWithValue("@id", TextBox1.Text)
+            command1.ExecuteNonQuery()
+            s1 = "UPDATE sensore SET  stato=@s where idspecifico=@id"
+            command1 = New MySqlCommand(s1, connectionS)
+            command1.Parameters.AddWithValue("@s", 0)
+            command1.Parameters.AddWithValue("@id", TextBox1.Text)
+            command1.ExecuteNonQuery()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
 
-        s1 = "UPDATE sensore SET  state=@s where idspecifico=@id"
-        command1 = New MySqlCommand(s1, connection)
-        command1.Parameters.AddWithValue("@s", 0)
-        command1.Parameters.AddWithValue("@id", TextBox1.Text)
-        command1.ExecuteNonQuery()
-        s1 = "UPDATE sensore SET  stato=@s where idspecifico=@id"
-        command1 = New MySqlCommand(s1, connectionS)
-        command1.Parameters.AddWithValue("@s", 0)
-        command1.Parameters.AddWithValue("@id", TextBox1.Text)
-        command1.ExecuteNonQuery()
+
 
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        s1 = "UPDATE sensore SET  min_=@min, max_=@max where idspecifico=@id"
-        command1 = New MySqlCommand(s1, connectionS)
-        command1.Parameters.AddWithValue("@min", CDbl(TextBox2.Text))
-        command1.Parameters.AddWithValue("@max", CDbl(TextBox3.Text))
-        command1.Parameters.AddWithValue("@id", TextBox1.Text)
-        command1.ExecuteNonQuery()
+        Try
+            s1 = "UPDATE sensore SET  min_=@min, max_=@max where idspecifico=@id"
+            command1 = New MySqlCommand(s1, connectionS)
+            command1.Parameters.AddWithValue("@min", CDbl(TextBox2.Text))
+            command1.Parameters.AddWithValue("@max", CDbl(TextBox3.Text))
+            command1.Parameters.AddWithValue("@id", TextBox1.Text)
+            command1.ExecuteNonQuery()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+
     End Sub
 End Class
 

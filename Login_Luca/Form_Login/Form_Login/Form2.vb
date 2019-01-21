@@ -192,7 +192,7 @@ Public Class Formedificio
             MessageBox.Show(ex.Message)
         End Try
 
-        Me.Timer1.Interval = CInt(TimeSpan.FromSeconds(10).TotalMilliseconds)
+        Me.Timer1.Interval = CInt(TimeSpan.FromSeconds(30).TotalMilliseconds)
         Me.Timer1.Start()
 
 
