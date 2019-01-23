@@ -83,3 +83,4 @@ C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Lo
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form14.resources
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form15.resources
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form5.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\MySql.Data.xml
