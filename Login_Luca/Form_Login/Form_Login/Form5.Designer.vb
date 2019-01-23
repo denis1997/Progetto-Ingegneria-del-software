@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormAmministratore
+Partial Class Form5
     Inherits System.Windows.Forms.Form
 
     'Form esegue l'override del metodo Dispose per pulire l'elenco dei componenti.
@@ -22,9 +22,7 @@ Partial Class FormAmministratore
     'Non modificarla mediante l'editor del codice.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -36,11 +34,11 @@ Partial Class FormAmministratore
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!)
-        Me.Label1.Location = New System.Drawing.Point(2029, 21)
+        Me.Label1.Location = New System.Drawing.Point(2049, 9)
         Me.Label1.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(67, 78)
-        Me.Label1.TabIndex = 0
+        Me.Label1.TabIndex = 2
         Me.Label1.Text = "x"
         '
         'Label2
@@ -104,10 +102,11 @@ Partial Class FormAmministratore
         Me.Button1.Text = "INSERISCI GESTORE"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'FormAmministratore
+        'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScroll = True
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(2133, 1073)
         Me.Controls.Add(Me.Label2)
@@ -117,8 +116,8 @@ Partial Class FormAmministratore
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.Name = "FormAmministratore"
+        Me.Name = "Form5"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form5"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -126,7 +125,6 @@ Partial Class FormAmministratore
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Timer1 As Timer
     Friend WithEvents Label2 As Label
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button

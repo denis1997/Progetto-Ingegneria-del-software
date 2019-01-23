@@ -35,7 +35,7 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         connection = New MySqlConnection
-        connection.ConnectionString = "datasource=localhost;port=3306;username=root;password=mysql2018;SslMode = none;database=databasegestore"
+        connection.ConnectionString = "datasource=localhost;port=3306;username=root;password=andrea98;SslMode = none;database=databasegestore"
 
         s = "select tipoarea, idarea from gestore where username=@u and password_=@p"
         command = New MySqlCommand(s, connection)
@@ -76,7 +76,7 @@ Public Class Form1
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If TextBox1.Text = "admin" And TextBox2.Text = "admin" Then
-            FormAmministratore.Show()
+            Form5.Show()
             Me.Hide()
         Else
             MessageBox.Show("dati errati")
