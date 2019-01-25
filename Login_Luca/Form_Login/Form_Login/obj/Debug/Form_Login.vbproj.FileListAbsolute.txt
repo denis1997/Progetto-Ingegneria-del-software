@@ -84,3 +84,15 @@ C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Lo
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form15.resources
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form5.resources
 C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\bin\Debug\MySql.Data.xml
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form16.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form17.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form18.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form19.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form20.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form21.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form22.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form23.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form24.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form25.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form26.resources
+C:\Users\Pagliarini Alberto\Documents\GitHub\Progetto-ingegneria-del-software\Login_Luca\Form_Login\Form_Login\obj\Debug\Form_Login.Form27.resources
