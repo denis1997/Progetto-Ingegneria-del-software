@@ -524,7 +524,7 @@ Public Class Formzona
             Dim c As Long = DateDiff(DateInterval.Second, o2, o1)
 
 
-            If Math.Abs(c) < 20 Then
+            If Math.Abs(c) < 59 Then
 
                 Button2.BackColor = Color.Yellow
 

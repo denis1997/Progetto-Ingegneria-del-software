@@ -236,7 +236,7 @@ Public Class Formedificio
                     mymenu(reader(7))(reader(6)).Items.Add(reader(0).ToString).BackColor = Color.Violet
 
                 Else
-                    If Math.Abs(c) < 20 Then
+                    If Math.Abs(c) < 59 Then
                         MyButton(reader(7))(0).BackColor = Color.Yellow
                         MyButton(reader(7))(reader(6)).BackColor = Color.Yellow
 
